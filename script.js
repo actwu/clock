@@ -15,8 +15,9 @@ m = d.getMinutes();
     il =  "<h1> IL </h1>";
    dps = "<div><p>"; 
  dpe = "</p></div>";
+sec =  "<h2>"+ s +"</h2>";
   
-let items = il + dps +
+let items = il + sec + dps +
  timetemp +
 dpe;
 body.innerHTML = items;
