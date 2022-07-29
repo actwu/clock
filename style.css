@@ -1,0 +1,51 @@
+* {
+margin:0px;
+}
+
+html{
+height:100vh;
+background: #edc0bf;
+  background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+font-family: 'Helvetica', sans-serif;
+  animation: drgb 10s infinite;
+}
+
+@keyframes drgb {
+  0% {
+    background: #edc0bf;
+  background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+}
+
+  50% {
+background: #edc0bf;
+  background: linear-gradient(90deg, #edc0b5 0,#c4caef 60%);
+}
+}
+
+body {
+display:flex;
+flex-wrap:no-wrap;
+color:#919BD6;
+place-items:center;
+justify-content:center;
+height:100%;
+widht:100%;
+font-size: 10vh;
+}
+
+h1 {
+font-size: 5vh;
+position: fixed;
+right: 2vw;
+bottom: 2vh;
+}
+
+div {
+    background: rgba(250, 250, 250, .5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+
+  padding:10vh 5vw 10vh 5vw;
+  border-radius:10vh 10vw;
+  box-shadow: 0px 0px 8vw 0px rgba(255, 255, 255, .5);
+}
